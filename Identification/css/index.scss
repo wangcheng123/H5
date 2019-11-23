@@ -1,0 +1,22 @@
+@charset "UTF-8";
+$baseSize: 75 !default;
+
+@function pTR($px) {
+    @return $px / $baseSize * 1rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #F3F4F6;
+}
+
+.conent {
+    width: 345px;
+    height: 552px;
+    background-color: #fff;
+    margin: 20px auto;
+}

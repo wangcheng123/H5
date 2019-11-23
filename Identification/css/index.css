@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #F3F4F6;
+    height: 100vh;
+}
+
+.loading {
+    z-index: 1;
+    padding: 5px 0 5px 29px;
+    background: url(../img/loading_red.gif) no-repeat 28px top;
+    left: 50%;
+    top: 50%;
+    width: 91px;
+    position: absolute;
+    height: 21px;
+    display: none;
+    margin-left: -45px;
+    margin-top: -15px;
+}
+
+.conent {
+    width: 92%;
+    /* height: 90%; */
+    background-color: #fff;
+    margin: 1rem auto;
+    padding-left: 0.75rem;
+    font-size: 0.75rem;
+    margin-bottom: 50px;
+}
+
+.name,
+.type,
+.number,
+.idcard {
+    padding: 0.6rem 0;
+    font-size: 0.75rem;
+    display: flex;
+}
+
+.idcard {
+    display: block;
+}
+
+.label {
+    color: #939393;
+    font-size: 0.75rem;
+}
+
+input,
+select,
+option {
+    border: none;
+    background: none;
+}
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 5rem;
+    background: #fff;
+}
+
+select {
+    height: 22px;
+    line-height: 18px;
+    padding: 2px 0
+}
+
+input:focus {
+    outline: 0;
+}
+
+.card {
+    width: 65%;
+    box-shadow: 0rem 0.05rem 0.45rem 0rem rgba(255, 205, 197, 0.44);
+    padding: 0.95rem 0.45rem 1rem 0.5rem;
+    margin: auto;
+    margin-top: 0.5rem;
+    position: relative;
+    max-width: 226px;
+}
+
+.idcard img {
+    width: 100%;
+
+}
+
+.desp {
+    font-size: 0.6rem;
+    color: #5BAFF6;
+    margin-top: 0.45rem;
+    text-align: center;
+}
+
+.upfile img {
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+.updata {
+    width: 93%;
+    height: 68%;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    top: 15%;
+    opacity: 0;
+}
+
+.btn {
+    font-size: 0.85rem;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    background: #f8979b;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+.alert {
+    font-size: 0.7rem;
+    color: #fff;
+    background: #000;
+    opacity: 0.7;
+    position: absolute;
+    left: 50%;
+    width: 135px;
+    height: 40px;
+    border-radius: 4px;
+    top: 50%;
+    margin-left: -67px;
+    text-align: center;
+    line-height: 40px;
+}
